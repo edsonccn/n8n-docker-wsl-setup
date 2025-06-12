@@ -77,29 +77,21 @@ Setting up n8n as a Low-Code automation platform using Docker Compose.
 
 ### 1. Clone o repositório / Clone the repository
 
-```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
 
 2. Edite o arquivo .env / Edit the .env file
-env
-Copiar
-Editar
+
 N8N_HOST=localhost
 N8N_PORT=5678
 
 3. Inicie o ambiente / Start the environment
-bash
-Copiar
-Editar
 docker-compose up -d
 Acesse: http://localhost:5678
 
 4. Pare o ambiente / Stop the environment
-bash
-Copiar
-Editar
+
 docker-compose down
 🔄 Backup & Restauração / Backup & Restore (em breve / coming soon)
 📚 Referências / References
